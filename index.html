@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>My Page</title>
+</head>
+<body>
+    <form name="adopt-a-cat">
+        <label for="full-name">Name:</label>
+        <input id="full-name" name="your-full-name" type="text" placeholder="Your Name Here">
+        <label for="email">Email:</label>
+        <input id="email" name="email-address" type="text" placeholder="example@email.com">
+        <label for="phone">Phone Number:</label>
+        <input id="phone" name="phone-number" type="text" placeholder="07123456789">
+        <legend>Do you have outside space?</legend>
+        <label for="outside-space-yes">Yes</label>
+        <input id="outside-space-yes" name="outside-space" type="radio" value="on">
+        <label for="outside-space-no">No</label>
+        <input id="outside-space-no" name="outside-space" type="radio" value="on">
+        <legend>Do children live in, or visit the house?</legend>
+        <label for="children-yes">Yes</label>
+        <input id="children-yes" name="children" type="radio" value="on">
+        <label for="children-no">No</label>
+        <input id="children-no" name="children" type="radio" value="on">
+        <legend>How old are these children?</legend>
+        <input name="children-age" type="range" min="0" max="17" value="9">
+
+        <input name="pets" type="radio" value="on">
+        <input name="pets" type="radio" value="on">
+
+        <select name="which-pets" id="pet">
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="bird">Bird</option>
+            <option value="rabbit">Rabbit</option>
+            <option value="fish">Fish</option>
+            <option value="reptile">Reptile</option>
+            <option value="other">Other</option>
+        </select>
+
+    </form>
+
+    <script src="forms.js"></script>    
+</body>
+</html>
